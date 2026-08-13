@@ -17,7 +17,7 @@ This notebook performs an exploratory data analysis (EDA) on the `diabetes.csv` 
 6.  **Descriptive Statistics (Advanced)**: Mean, median, and standard deviation for various columns (e.g., `BMI`, `Age`) were calculated, and the correlation matrix for all numerical features was computed using `df.corr()`.
 
 7.  **Feature Engineering**: New categorical features `BMI_CATEGORY` and `Glucose_Level` were created based on existing numerical columns `BMI` and `Glucose`, respectively.
-gandu
+
 8.  **Data Cleaning - Handling Zero Values**: Invalid zero values in 'Glucose', 'BloodPressure', and 'Insulin' columns were replaced with the mean of their respective columns to ensure more accurate analysis and model training.
 
 9.  **Data Visualization**: A histogram of the 'Age' distribution was generated using `matplotlib.pyplot` to visually inspect the age demographics within the dataset.
